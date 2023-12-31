@@ -131,7 +131,7 @@ def train():
         agent.remember(state_old, final_move, reward, state_new, done)
 
         if done:
-            # train long memory, plot result
+     
             game.reset()
             agent.n_games += 1
             agent.train_long_memory()
