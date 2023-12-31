@@ -23,9 +23,10 @@ Includes the logic for the Snake Game (SnakeGameAI), including defining the game
 Handles the game state, actions, rewards, and game resets.
 4. Helper.py
 Provides utility functions for plotting game scores and mean scores during training.
-Usage
+# Usage
 The code snippets provided are designed to work together to train a Snake Game AI using reinforcement learning.
 The train() function in the main script orchestrates the training process. Run this script to start training the AI.
+
 
 
 ## License
