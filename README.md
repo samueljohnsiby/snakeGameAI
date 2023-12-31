@@ -1,13 +1,13 @@
-#Snake Game AI using Reinforcement Learning
+# Snake Game AI using Reinforcement Learning
 This repository contains code snippets and modules for building a Snake Game AI using reinforcement learning techniques.
 
-##Contents
+## Contents
 Agent.py: Contains the definition of the Agent class responsible for training the Snake Game AI.
 Model.py: Includes the neural network model (Linear_QNet) and trainer (QTrainer) used for training the AI.
 Game.py: Defines the Snake Game logic (SnakeGameAI) such as game state, actions, and rewards.
 Helper.py: Provides utility functions for plotting scores and mean scores during training.
-README.md: You're here! This file provides an overview of the project and descriptions of the code snippets.
-Code Snippets
+
+
 1. Agent.py
 Implements the Agent class responsible for training the Snake Game AI.
 Defines functions for getting the game state, training long and short memory, and making AI moves.
@@ -22,7 +22,6 @@ Provides utility functions for plotting game scores and mean scores during train
 Usage
 The code snippets provided are designed to work together to train a Snake Game AI using reinforcement learning.
 The train() function in the main script orchestrates the training process. Run this script to start training the AI.
-Contributing
-Contributions are welcome! Feel free to fork this repository, make improvements, and create pull requests.
-License
+
+## License
 This project is licensed under the GNU License.
